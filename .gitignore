@@ -36,7 +36,6 @@ venv.bak/
 *.pth
 *.ckpt
 *.safetensors
-bert_model_best*/
 models/
 checkpoints/
 *.h5
