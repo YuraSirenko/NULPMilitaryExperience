@@ -1,0 +1,80 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model Files (large files)
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+bert_model_best*/
+models/
+checkpoints/
+*.h5
+*.pkl
+*.pickle
+
+# Data Files
+*.csv
+nulp-military-experience/
+data/
+datasets/
+
+# Outputs
+predictions_*.csv
+results/
+outputs/
+logs/
+runs/
+*.png
+*.jpg
+*.jpeg
+
+# PyTorch
+*.pth.tar
+
+# Transformers cache
+.cache/
+transformers_cache/
+
+# Environment variables
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
